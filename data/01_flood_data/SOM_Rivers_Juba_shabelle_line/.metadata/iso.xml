@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- pycsw 2.4.0 -->
+<csw:GetRecordByIdResponse xmlns:csw="http://www.opengis.net/cat/csw/2.0.2" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:ows="http://www.opengis.net/ows" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/cat/csw/2.0.2 http://schemas.opengis.net/csw/2.0.2/CSW-discovery.xsd">
+  <gmd:MD_Metadata xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+   <gmd:fileIdentifier>
+     <gco:CharacterString>331f0552-0461-11ea-886c-eab1b014fce8</gco:CharacterString>
+   </gmd:fileIdentifier>
+   <gmd:language>
+     <gco:CharacterString>eng</gco:CharacterString>
+   </gmd:language>
+   <gmd:characterSet>
+     <gmd:MD_CharacterSetCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+   </gmd:characterSet>
+   <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+   </gmd:hierarchyLevel>
+
+
+   
+   <gmd:contact>
+     <gmd:CI_ResponsibleParty>
+       <gmd:individualName gco:nilReason="missing">
+         
+       </gmd:individualName>
+       <gmd:organisationName>
+          <gco:CharacterString>FAO Somalia</gco:CharacterString> 
+       </gmd:organisationName>
+       <gmd:positionName>
+         <gco:CharacterString>GIS/RS Team</gco:CharacterString> 
+       </gmd:positionName>
+       <gmd:contactInfo>
+         <gmd:CI_Contact>
+           <gmd:phone>
+             <gmd:CI_Telephone>
+               <gmd:voice>
+                 <gco:CharacterString>+254203000300</gco:CharacterString>
+               </gmd:voice>
+               <gmd:facsimile gco:nilReason="missing">
+                 
+               </gmd:facsimile>
+             </gmd:CI_Telephone>
+           </gmd:phone>
+           <gmd:address>
+             <gmd:CI_Address>
+               <gmd:deliveryPoint gco:nilReason="missing">
+                 
+               </gmd:deliveryPoint>
+               <gmd:city>
+                 <gco:CharacterString>Nairobi</gco:CharacterString>
+               </gmd:city>
+               <gmd:administrativeArea gco:nilReason="missing">
+                 
+               </gmd:administrativeArea>
+               <gmd:postalCode>
+                 <gco:CharacterString>00100</gco:CharacterString>
+               </gmd:postalCode>
+               <gmd:country>
+                 <gco:CharacterString>KEN</gco:CharacterString>
+               </gmd:country>
+               <gmd:electronicMailAddress>
+                 <gco:CharacterString>swalim@fao.org</gco:CharacterString>
+               </gmd:electronicMailAddress>
+             </gmd:CI_Address>
+           </gmd:address>
+           
+         </gmd:CI_Contact>
+       </gmd:contactInfo>
+       <gmd:role>
+         <gmd:CI_RoleCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+       </gmd:role>
+     </gmd:CI_ResponsibleParty>
+   </gmd:contact>
+   
+
+   
+   <gmd:contact>
+     <gmd:CI_ResponsibleParty>
+       <gmd:individualName gco:nilReason="missing">
+         
+       </gmd:individualName>
+       <gmd:organisationName>
+          <gco:CharacterString>FAO Somalia</gco:CharacterString> 
+       </gmd:organisationName>
+       <gmd:positionName>
+         <gco:CharacterString>GIS/RS Team</gco:CharacterString> 
+       </gmd:positionName>
+       <gmd:contactInfo>
+         <gmd:CI_Contact>
+           <gmd:phone>
+             <gmd:CI_Telephone>
+               <gmd:voice>
+                 <gco:CharacterString>+254203000300</gco:CharacterString>
+               </gmd:voice>
+               <gmd:facsimile gco:nilReason="missing">
+                 
+               </gmd:facsimile>
+             </gmd:CI_Telephone>
+           </gmd:phone>
+           <gmd:address>
+             <gmd:CI_Address>
+               <gmd:deliveryPoint gco:nilReason="missing">
+                 
+               </gmd:deliveryPoint>
+               <gmd:city>
+                 <gco:CharacterString>Nairobi</gco:CharacterString>
+               </gmd:city>
+               <gmd:administrativeArea gco:nilReason="missing">
+                 
+               </gmd:administrativeArea>
+               <gmd:postalCode>
+                 <gco:CharacterString>00100</gco:CharacterString>
+               </gmd:postalCode>
+               <gmd:country>
+                 <gco:CharacterString>KEN</gco:CharacterString>
+               </gmd:country>
+               <gmd:electronicMailAddress>
+                 <gco:CharacterString>swalim@fao.org</gco:CharacterString>
+               </gmd:electronicMailAddress>
+             </gmd:CI_Address>
+           </gmd:address>
+           
+         </gmd:CI_Contact>
+       </gmd:contactInfo>
+       <gmd:role>
+         <gmd:CI_RoleCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+       </gmd:role>
+     </gmd:CI_ResponsibleParty>
+   </gmd:contact>
+   
+
+
+   <gmd:dateStamp>
+     <gco:DateTime>2019-11-27T09:00:35Z</gco:DateTime>
+   </gmd:dateStamp>
+   <gmd:metadataStandardName>
+     <gco:CharacterString>ISO 19115:2003 - Geographic information - Metadata</gco:CharacterString>
+   </gmd:metadataStandardName>
+   <gmd:metadataStandardVersion>
+     <gco:CharacterString>ISO 19115:2003</gco:CharacterString>
+   </gmd:metadataStandardVersion>
+   <gmd:spatialRepresentationInfo/>
+   <gmd:referenceSystemInfo>
+     <gmd:MD_ReferenceSystem>
+       <gmd:referenceSystemIdentifier>
+         <gmd:RS_Identifier>
+           <gmd:code>
+             <gco:CharacterString>4326</gco:CharacterString>
+           </gmd:code>
+           <gmd:codeSpace>
+             <gco:CharacterString>EPSG</gco:CharacterString>
+           </gmd:codeSpace>
+           <gmd:version>
+             <gco:CharacterString>6.11</gco:CharacterString>
+           </gmd:version>
+         </gmd:RS_Identifier>
+       </gmd:referenceSystemIdentifier>
+     </gmd:MD_ReferenceSystem>
+   </gmd:referenceSystemInfo>
+
+   <gmd:identificationInfo>
+     <gmd:MD_DataIdentification>
+       <gmd:citation>
+         <gmd:CI_Citation>
+           
+           <gmd:name>
+             <gco:CharacterString>geonode:SOM_Rivers_Juba_shabelle_line_FAOSWALIM</gco:CharacterString>
+           </gmd:name>
+           
+           <gmd:title>
+             <gco:CharacterString>River Juba and Shabelle (line)</gco:CharacterString>
+           </gmd:title>
+           <gmd:date>
+             <gmd:CI_Date>
+               <gmd:date>
+                 <gco:DateTime>2019-11-11T11:56:00Z</gco:DateTime>
+               </gmd:date>
+               <gmd:dateType>
+                 <gmd:CI_DateTypeCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+               </gmd:dateType>
+             </gmd:CI_Date>
+           </gmd:date>
+           <gmd:edition gco:nilReason="missing">
+                 
+           </gmd:edition>
+           <gmd:presentationForm>
+             <gmd:CI_PresentationFormCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital">mapDigital</gmd:CI_PresentationFormCode>
+           </gmd:presentationForm>
+         </gmd:CI_Citation>
+       </gmd:citation>
+       <gmd:abstract>
+         <gco:CharacterString>The Shuttle Radar Topography Mission (SRTM) obtained 90-meter (3 arc-second) resolution data on a near-global scale (between 56 degrees South and 60 degrees North latitude) and 30 meter (1 arc-second) resolution over United States, providing a valuable global topographic dataset. The SRTM data were collected during an 11-day mission in February of 2000 from a radar system onboard the Space Shuttle Endeavor.</gco:CharacterString>
+       </gmd:abstract>
+       <gmd:purpose gco:nilReason="missing">
+             
+       </gmd:purpose>
+       <gmd:status>
+         <gmd:MD_ProgressCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+       </gmd:status>
+
+       
+       <gmd:pointOfContact>
+         <gmd:CI_ResponsibleParty>
+           <gmd:individualName gco:nilReason="missing">
+             
+           </gmd:individualName>
+           <gmd:organisationName>
+              <gco:CharacterString>FAO Somalia</gco:CharacterString> 
+           </gmd:organisationName>
+           <gmd:positionName>
+             <gco:CharacterString>GIS/RS Team</gco:CharacterString> 
+           </gmd:positionName>
+           <gmd:contactInfo>
+             <gmd:CI_Contact>
+               <gmd:phone>
+                 <gmd:CI_Telephone>
+                   <gmd:voice>
+                     <gco:CharacterString>+254203000300</gco:CharacterString>
+                   </gmd:voice>
+                   <gmd:facsimile gco:nilReason="missing">
+                     
+                   </gmd:facsimile>
+                 </gmd:CI_Telephone>
+               </gmd:phone>
+               <gmd:address>
+                 <gmd:CI_Address>
+                   <gmd:deliveryPoint gco:nilReason="missing">
+                     
+                   </gmd:deliveryPoint>
+                   <gmd:city>
+                     <gco:CharacterString>Nairobi</gco:CharacterString>
+                   </gmd:city>
+                   <gmd:administrativeArea gco:nilReason="missing">
+                     
+                   </gmd:administrativeArea>
+                   <gmd:postalCode>
+                     <gco:CharacterString>00100</gco:CharacterString>
+                   </gmd:postalCode>
+                   <gmd:country>
+                     <gco:CharacterString>KEN</gco:CharacterString>
+                   </gmd:country>
+                   <gmd:electronicMailAddress>
+                     <gco:CharacterString>swalim@fao.org</gco:CharacterString>
+                   </gmd:electronicMailAddress>
+                 </gmd:CI_Address>
+               </gmd:address>
+               
+             </gmd:CI_Contact>
+           </gmd:contactInfo>
+           <gmd:role>
+             <gmd:CI_RoleCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+           </gmd:role>
+         </gmd:CI_ResponsibleParty>
+       </gmd:pointOfContact>
+       
+
+       
+       <gmd:resourceMaintenance>
+         <gmd:MD_MaintenanceInformation>
+           <gmd:maintenanceAndUpdateFrequency>
+             <gmd:MD_MaintenanceFrequencyCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+           </gmd:maintenanceAndUpdateFrequency>
+         </gmd:MD_MaintenanceInformation>
+       </gmd:resourceMaintenance>
+       
+       <gmd:graphicOverview>
+         <gmd:MD_BrowseGraphic>
+           <gmd:fileName>
+             <gco:CharacterString>https://spatial.faoswalim.org/uploaded/thumbs/layer-331f0552-0461-11ea-886c-eab1b014fce8-thumb.png</gco:CharacterString>
+           </gmd:fileName>
+           <gmd:fileDescription>
+             <gco:CharacterString>Thumbnail for 'River Juba and Shabelle (line)'</gco:CharacterString>
+           </gmd:fileDescription>
+           <gmd:fileType>
+             <gco:CharacterString>image/png</gco:CharacterString>
+           </gmd:fileType>
+         </gmd:MD_BrowseGraphic>
+       </gmd:graphicOverview>
+       <gmd:resourceFormat>
+         <gmd:MD_Format>
+           <gmd:name>
+             
+             <gco:CharacterString>ESRI Shapefile</gco:CharacterString>
+             
+           </gmd:name>
+           <gmd:version>
+             <gco:CharacterString>1.0</gco:CharacterString>
+           </gmd:version>
+         </gmd:MD_Format>
+       </gmd:resourceFormat>
+       
+       <gmd:descriptiveKeywords>
+         <gmd:MD_Keywords>
+           
+           <gmd:keyword>
+             <gco:CharacterString>SOM_Rivers_Juba_shabelle_line_FAOSWALIM</gco:CharacterString>
+           </gmd:keyword>
+           
+           <gmd:keyword>
+             <gco:CharacterString>juba</gco:CharacterString>
+           </gmd:keyword>
+           
+           <gmd:keyword>
+             <gco:CharacterString>rivers</gco:CharacterString>
+           </gmd:keyword>
+           
+           <gmd:type>
+              <gmd:MD_KeywordTypeCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+            </gmd:type>
+         </gmd:MD_Keywords>
+       </gmd:descriptiveKeywords>
+       
+       
+       <gmd:descriptiveKeywords>
+         <gmd:MD_Keywords>
+           <gmd:keyword>
+             <gco:CharacterString>Somalia</gco:CharacterString>
+           </gmd:keyword>
+           <gmd:type>
+              <gmd:MD_KeywordTypeCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+            </gmd:type>
+         </gmd:MD_Keywords>
+       </gmd:descriptiveKeywords>
+       
+       
+       
+       <gmd:resourceConstraints>
+         <gmd:MD_LegalConstraints>
+           <gmd:useConstraints>
+             <gmd:MD_RestrictionCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="license">license</gmd:MD_RestrictionCode>
+           </gmd:useConstraints>
+           <gmd:otherConstraints>
+             <gco:CharacterString>Open Data Commons Open Database License / OSM (ODbL/OSM): You are free to copy, distribute, transmit and adapt our data, as long as you credit OpenStreetMap and its contributors
+If you alter or build upon our data, you may distribute the result only under the same licence. (http://www.openstreetmap.org/copyright)</gco:CharacterString>
+           </gmd:otherConstraints>
+         </gmd:MD_LegalConstraints>
+       </gmd:resourceConstraints>
+       
+       <gmd:resourceConstraints>
+         <gmd:MD_LegalConstraints>
+           <gmd:useConstraints>
+              <gmd:MD_RestrictionCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue=""/>
+           </gmd:useConstraints>
+           <gmd:otherConstraints>
+             <gco:CharacterString/>
+           </gmd:otherConstraints>
+         </gmd:MD_LegalConstraints>
+       </gmd:resourceConstraints>
+       <gmd:spatialRepresentationType>
+         <gmd:MD_SpatialRepresentationTypeCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector">vector</gmd:MD_SpatialRepresentationTypeCode>
+       </gmd:spatialRepresentationType>
+       <gmd:language>
+         <gco:CharacterString>eng</gco:CharacterString>
+       </gmd:language>
+       <gmd:characterSet>
+         <gmd:MD_CharacterSetCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+       </gmd:characterSet>
+       <gmd:topicCategory gco:nilReason="missing">
+         
+       </gmd:topicCategory>
+       <gmd:extent>
+         <gmd:EX_Extent>
+           <gmd:geographicElement>
+             <gmd:EX_GeographicBoundingBox>
+               <gmd:westBoundLongitude>
+                 <gco:Decimal>42.1221313477</gco:Decimal>
+               </gmd:westBoundLongitude>
+               <gmd:eastBoundLongitude>
+                 <gco:Decimal>45.678237915</gco:Decimal>
+               </gmd:eastBoundLongitude>
+               <gmd:southBoundLatitude>
+                 <gco:Decimal>-0.251115590334</gco:Decimal>
+               </gmd:southBoundLatitude>
+               <gmd:northBoundLatitude>
+                 <gco:Decimal>4.95320701599</gco:Decimal>
+               </gmd:northBoundLatitude>
+             </gmd:EX_GeographicBoundingBox>
+           </gmd:geographicElement>
+         </gmd:EX_Extent>
+       </gmd:extent>
+       
+       <gmd:supplementalInformation>
+         <gco:CharacterString>Credits:FAOSWALIM</gco:CharacterString>
+       </gmd:supplementalInformation>
+     </gmd:MD_DataIdentification>
+   </gmd:identificationInfo>
+
+   <gmd:contentInfo>
+     
+     <gmd:includedWithDataset>
+       <gco:Boolean>0</gco:Boolean>
+     </gmd:includedWithDataset>
+     <gmd:MD_FeatureCatalogueDescription>
+       <gmd:featureCatalogueCitation uuidref="331f0552-0461-11ea-886c-eab1b014fce8" xlink:href="https://spatial.faoswalim.org/layers/geonode:SOM_Rivers_Juba_shabelle_line_FAOSWALIM/feature_catalogue"/>
+     </gmd:MD_FeatureCatalogueDescription>
+     
+   </gmd:contentInfo>
+   <gmd:distributionInfo>
+     <gmd:MD_Distribution>
+       <gmd:transferOptions>
+         <gmd:MD_DigitalTransferOptions>
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                   <gmd:URL>https://spatial.faoswalim.org/layers/geonode:SOM_Rivers_Juba_shabelle_line_FAOSWALIM</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:description>
+                 <gco:CharacterString>Online link to the 'River Juba and Shabelle (line)' description on GeoNode</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>https://spatial.faoswalim.org/uploaded/thumbs/layer-331f0552-0461-11ea-886c-eab1b014fce8-thumb.png</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>SOM_Rivers_Juba_shabelle_line_FAOSWALIM.png</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>River Juba and Shabelle (line) (Thumbnail Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>https://spatial.faoswalim.org/geoserver/ows?layers=geonode:SOM_Rivers_Juba_shabelle_line_FAOSWALIM&amp;crs=EPSG:4326&amp;service=WMS&amp;format=image/png8&amp;access_token=PUJiSFEGMwx43u2ECAi1wFReBsEZYL&amp;request=GetMap&amp;height=180&amp;width=240&amp;version=1.1.1&amp;bbox=42.122131347656200,-0.251115590333939,45.678237915039100,4.953207015991210</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>SOM_Rivers_Juba_shabelle_line_FAOSWALIM.png</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>River Juba and Shabelle (line) (Remote Thumbnail Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>https://spatial.faoswalim.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image/png&amp;WIDTH=20&amp;HEIGHT=20&amp;LAYER=geonode:SOM_Rivers_Juba_shabelle_line_FAOSWALIM&amp;STYLE=SOM_Rivers_Juba_shabelle_line_FAOSWALIM&amp;legend_options=fontAntiAliasing:true;fontSize:12;forceLabels:on</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>SOM_Rivers_Juba_shabelle_line_FAOSWALIM.png</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>River Juba and Shabelle (line) (Legend Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>https://spatial.faoswalim.org/geoserver/ows?srsName=EPSG%3A4326&amp;outputFormat=json&amp;service=WFS&amp;srs=EPSG%3A4326&amp;request=GetFeature&amp;typename=geonode%3ASOM_Rivers_Juba_shabelle_line_FAOSWALIM&amp;version=1.0.0</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>SOM_Rivers_Juba_shabelle_line_FAOSWALIM.json</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>River Juba and Shabelle (line) (GeoJSON Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>https://spatial.faoswalim.org/geoserver/ows?outputFormat=excel&amp;service=WFS&amp;srs=EPSG%3A4326&amp;request=GetFeature&amp;typename=geonode%3ASOM_Rivers_Juba_shabelle_line_FAOSWALIM&amp;version=1.0.0</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>SOM_Rivers_Juba_shabelle_line_FAOSWALIM.excel</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>River Juba and Shabelle (line) (Excel Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>https://spatial.faoswalim.org/geoserver/ows?outputFormat=csv&amp;service=WFS&amp;srs=EPSG%3A4326&amp;request=GetFeature&amp;typename=geonode%3ASOM_Rivers_Juba_shabelle_line_FAOSWALIM&amp;version=1.0.0</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>SOM_Rivers_Juba_shabelle_line_FAOSWALIM.csv</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>River Juba and Shabelle (line) (CSV Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>https://spatial.faoswalim.org/geoserver/ows?outputFormat=text%2Fxml%3B+subtype%3Dgml%2F3.1.1&amp;service=WFS&amp;srs=EPSG%3A4326&amp;request=GetFeature&amp;typename=geonode%3ASOM_Rivers_Juba_shabelle_line_FAOSWALIM&amp;version=1.0.0</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>SOM_Rivers_Juba_shabelle_line_FAOSWALIM.gml</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>River Juba and Shabelle (line) (GML 3.1.1 Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>https://spatial.faoswalim.org/geoserver/ows?outputFormat=gml2&amp;service=WFS&amp;srs=EPSG%3A4326&amp;request=GetFeature&amp;typename=geonode%3ASOM_Rivers_Juba_shabelle_line_FAOSWALIM&amp;version=1.0.0</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>SOM_Rivers_Juba_shabelle_line_FAOSWALIM.gml</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>River Juba and Shabelle (line) (GML 2.0 Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>https://spatial.faoswalim.org/geoserver/ows?outputFormat=SHAPE-ZIP&amp;service=WFS&amp;srs=EPSG%3A4326&amp;request=GetFeature&amp;format_options=charset%3AUTF-8&amp;typename=geonode%3ASOM_Rivers_Juba_shabelle_line_FAOSWALIM&amp;version=1.0.0</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>SOM_Rivers_Juba_shabelle_line_FAOSWALIM.zip</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>River Juba and Shabelle (line) (Zipped Shapefile Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>https://spatial.faoswalim.org/geoserver/ows?layers=geonode%3ASOM_Rivers_Juba_shabelle_line_FAOSWALIM&amp;service=WMS&amp;format=image%2Fpng&amp;request=GetMap&amp;height=550&amp;width=375&amp;bbox=42.1221313476562%2C-0.251115590333939%2C45.6782379150391%2C4.95320701599121&amp;srs=EPSG%3A4326</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>SOM_Rivers_Juba_shabelle_line_FAOSWALIM.png</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>River Juba and Shabelle (line) (PNG Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>https://spatial.faoswalim.org/geoserver/ows?layers=geonode%3ASOM_Rivers_Juba_shabelle_line_FAOSWALIM&amp;service=WMS&amp;format=application%2Fpdf&amp;request=GetMap&amp;height=550&amp;width=375&amp;bbox=42.1221313476562%2C-0.251115590333939%2C45.6782379150391%2C4.95320701599121&amp;srs=EPSG%3A4326</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>SOM_Rivers_Juba_shabelle_line_FAOSWALIM.pdf</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>River Juba and Shabelle (line) (PDF Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>https://spatial.faoswalim.org/geoserver/ows?layers=geonode%3ASOM_Rivers_Juba_shabelle_line_FAOSWALIM&amp;service=WMS&amp;format=image%2Fjpeg&amp;request=GetMap&amp;height=550&amp;width=375&amp;bbox=42.1221313476562%2C-0.251115590333939%2C45.6782379150391%2C4.95320701599121&amp;srs=EPSG%3A4326</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>SOM_Rivers_Juba_shabelle_line_FAOSWALIM.jpg</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>River Juba and Shabelle (line) (JPEG Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>https://spatial.faoswalim.org/download/265</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>SOM_Rivers_Juba_shabelle_line_FAOSWALIM.zip</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>River Juba and Shabelle (line) (Original Dataset Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>https://spatial.faoswalim.org/geoserver/ows</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>OGC:WFS</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>geonode:SOM_Rivers_Juba_shabelle_line_FAOSWALIM</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>geonode Service - Provides Layer: River Juba and Shabelle (line)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>https://spatial.faoswalim.org/geoserver/ows</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>OGC:WMS</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>geonode:SOM_Rivers_Juba_shabelle_line_FAOSWALIM</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>geonode Service - Provides Layer: River Juba and Shabelle (line)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+         </gmd:MD_DigitalTransferOptions>
+       </gmd:transferOptions>
+     </gmd:MD_Distribution>
+   </gmd:distributionInfo>
+   <gmd:dataQualityInfo>
+     <gmd:DQ_DataQuality>
+       <gmd:scope>
+         <gmd:DQ_Scope>
+           <gmd:level>
+             <gmd:MD_ScopeCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+           </gmd:level>
+         </gmd:DQ_Scope>
+       </gmd:scope>
+       <gmd:lineage>
+         <gmd:LI_Lineage>
+           <gmd:statement gco:nilReason="missing"/>
+         </gmd:LI_Lineage>
+       </gmd:lineage>
+     </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
+ </gmd:MD_Metadata>
+</csw:GetRecordByIdResponse>

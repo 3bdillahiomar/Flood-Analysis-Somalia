@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- pycsw 2.4.0 -->
+<csw:GetRecordByIdResponse xmlns:csw="http://www.opengis.net/cat/csw/2.0.2" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:ows="http://www.opengis.net/ows" xmlns:rim="urn:oasis:names:tc:ebxml-regrep:xsd:rim:3.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/cat/csw/2.0.2 http://schemas.opengis.net/csw/2.0.2/CSW-discovery.xsd">
+  <rim:ExtrinsicObject xsi:schemaLocation="http://www.opengis.net/cat/wrs/1.0 http://schemas.opengis.net/csw/2.0.2/profiles/ebrim/1.0/csw-ebrim.xsd" id="331f0552-0461-11ea-886c-eab1b014fce8" lid="331f0552-0461-11ea-886c-eab1b014fce8" objectType="dataset" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+    <rim:VersionInfo versionName=""/>
+    <rim:ExternalIdentifier id="331f0552-0461-11ea-886c-eab1b014fce8" identificationScheme="foo" registryObject="None" value="331f0552-0461-11ea-886c-eab1b014fce8"/>
+    <rim:Name>
+      <rim:LocalizedString value="River Juba and Shabelle (line)"/>
+    </rim:Name>
+    <rim:Description>
+      <rim:LocalizedString value="The Shuttle Radar Topography Mission (SRTM) obtained 90-meter (3 arc-second) resolution data on a near-global scale (between 56 degrees South and 60 degrees North latitude) and 30 meter (1 arc-second) resolution over United States, providing a valuable global topographic dataset. The SRTM data were collected during an 11-day mission in February of 2000 from a radar system onboard the Space Shuttle Endeavor."/>
+    </rim:Description>
+    <rim:Slot slotType="urn:ogc:def:dataType:ISO-19107:2003:GM_Envelope">
+      <rim:ValueList>
+        <rim:Value>
+          <ows:BoundingBox crs="urn:x-ogc:def:crs:EPSG:6.11:4326" dimensions="2">
+            <ows:LowerCorner>-0.251115590334 42.1221313477</ows:LowerCorner>
+            <ows:UpperCorner>4.95320701599 45.678237915</ows:UpperCorner>
+          </ows:BoundingBox>
+        </rim:Value>
+      </rim:ValueList>
+    </rim:Slot>
+    <rim:Slot name="http://purl.org/dc/elements/1.1/subject">
+      <rim:ValueList>
+        <rim:Value>juba</rim:Value>
+        <rim:Value>river</rim:Value>
+      </rim:ValueList>
+    </rim:Slot>
+  </rim:ExtrinsicObject>
+</csw:GetRecordByIdResponse>
